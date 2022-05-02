@@ -1,0 +1,19 @@
+"""
+The given code defines a list of colors. Print out every other color using a while loop.
+
+That is, your program should print red, then blue, then cyan, and so on.
+"""
+
+colors = [
+    "red", "green", "blue",
+    "purple", "cyan", "brown",
+    "yellow", "silver", "gold"
+]
+
+i = 0
+
+while i < len(colors):
+    color = colors[i]
+    print(color)
+    i = i + 2
+    
