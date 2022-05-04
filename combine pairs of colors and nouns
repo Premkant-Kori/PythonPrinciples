@@ -1,0 +1,7 @@
+colors = ["blue", "green", "red"]
+nouns = ["laptop", "website", "phone"]
+
+# your code goes here
+for color in colors:
+    for noun in nouns:
+        print(color + noun + ".com")
