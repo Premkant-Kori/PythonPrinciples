@@ -1,0 +1,11 @@
+com = ".com"
+strings = ["a", "b"]
+def append_dotcom(strings):
+    result = []
+    for i in strings:
+        x = str(i)
+        x1 = x + com
+        result = result + [x1]
+    return result
+a = append_dotcom(strings)
+print(a)
